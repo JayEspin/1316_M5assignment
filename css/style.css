@@ -5,7 +5,7 @@
     width: 1000px;
     margin: 0 auto;
     background-color: skyblue;
-    height: 600px;
+    height: 100%;
 }
 header{
     height: 100px;
@@ -42,12 +42,14 @@ section{
 }
 .mainleft{
     margin: 20px  30px  20px  0px;
+    margin-left:  20px;
 }
 .mainright{
     margin: 20px  30px  20px  0px;
 }
 .bottomleft{
     margin: 20px  30px  20px  0px;
+    margin-left:  20px;
 }
 .bottomright{
     margin: 20px  30px  20px  0px;
@@ -66,18 +68,20 @@ table{
     font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 50%;
+  float: left;
+  margin-right: 10px;
 }
 td, th {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 5px;
   }
-  tr:nth-child(even) {
+tr:nth-child(even){
     background-color: #dddddd;
   }
 ol{
-    float: right;
-    width: 300px;
+    float: left;
+    width: 200px;
     padding-left:15px;
 }
 footer{
